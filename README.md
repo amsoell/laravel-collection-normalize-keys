@@ -17,3 +17,7 @@ $collection->normalizeKeys();
 //     [ 'a' => null, 'b' => 1, 'c' => 3 ],
 // ];
 ```
+
+## Installation
+
+`composer require amsoell/laravel-collection-normalize-keys`
