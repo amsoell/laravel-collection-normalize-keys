@@ -1,0 +1,29 @@
+{
+    "name": "amsoell/laravel-collection-normalize-keys",
+    "description": "Laravel collection macro to ensure consistent keys within a multidimensional collection",
+    "keywords": [
+        "collection",
+        "laravel",
+        "macro",
+        "macros",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Soell",
+            "email": "andy@teamsoell.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "files": [
+            "src/normalize_keys.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
