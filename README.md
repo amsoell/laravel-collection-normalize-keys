@@ -3,11 +3,11 @@
 Ensure that every array / collection within a collection contains the same keys
 
 ```php
-$collection = collect(
+$collection = collect([
   [ 'a' => 1, 'b' => 2],
   [ 'a' => 1, 'c' => 3],
   [ 'b' => 1, 'c' => 3],
-);
+]);
 
 $collection->normalizeKeys();
 
